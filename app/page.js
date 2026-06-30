@@ -104,6 +104,13 @@ export default function Home() {
   /* ─── render ──────────────────────────────────────────── */
   return (
     <main className="main-container">
+      {/* Background Mesh Gradient Glows */}
+      <div className="bg-glows">
+        <div className="glow-1"></div>
+        <div className="glow-2"></div>
+        <div className="glow-3"></div>
+      </div>
+
       {/* Notification Toast */}
       {notification && (
         <div className={`notification ${notification.type}`}>
